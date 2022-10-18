@@ -6,7 +6,7 @@ Take a look at my Algorithms and Data Structures
   2. sudo apt-get install -y php-ds
 
 ## Explanation
-  CanConstruct is using recursion to check whether the letters in the array of words can make the targer word.
+  CanConstruct is using recursion to check whether the letters in the array of words can make the target word.
   In this case "apple".
   O()
   
