@@ -1,9 +1,9 @@
 <?php
 
-$target = 7;
+$target = 498;
 $numbers = [2,3];
 
-function canConstruct($target,$numbers){
+function TwoSum($target,$numbers){
     $table = array_fill(0,$target+1,"null");
     $table[0] = array();
 
@@ -18,6 +18,6 @@ function canConstruct($target,$numbers){
     return $table[$target];
 }
 
-$ans = canConstruct($target,$numbers);
+$ans = TwoSum($target,$numbers);
 echo(var_dump($ans));
 ?>
